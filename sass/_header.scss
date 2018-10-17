@@ -1,0 +1,21 @@
+header{
+	background: $color1;
+	padding: 100px 0;
+	h1{
+		color: blue;
+		font-family: $fuente-titulos;
+	}
+	h2{
+		color: green;
+		font-family: $fuente-titulos;
+	}
+	p{
+		color: brown;
+		a{
+			color: pink;
+			&:hover{
+				color:cyan;
+			}
+		}
+	}
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Caption|Roboto");
+header {
+  background: #466466;
+  padding: 100px 0;
+}
+header h1 {
+  color: blue;
+  font-family: "PT Sans Caption";
+}
+header h2 {
+  color: green;
+  font-family: "PT Sans Caption";
+}
+header p {
+  color: brown;
+}
+header p a {
+  color: pink;
+}
+header p a:hover {
+  color: cyan;
+}
+
+#s1 h3 {
+  background: limegreen;
+}
+#s1 p {
+  font-family: "Roboto";
+}
+#s1 p.destacado {
+  font-weight: bold;
+}
+
+#telefe div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: green;
+  display: inline-block;
+}
+#telefe div:nth-child(2) {
+  background: blue;
+}
+#telefe div:nth-child(3) {
+  background: red;
+}
+
+#telefe div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: green;
+  display: inline-block;
+}
+#telefe div:nth-child(2) {
+  background: blue;
+}
+#telefe div:nth-child(3) {
+  background: red;
+}
+
+#telefe2 div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: green;
+  display: inline-block;
+}
+#telefe2 div:after, #telefe2 div:before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: blue;
+  display: inline-block;
+}
+#telefe2 div:before {
+  background: red;
+}
+
+/*# sourceMappingURL=style.css.map */
